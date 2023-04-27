@@ -1,0 +1,27 @@
+<suite name = "regression">
+
+    <test name = "appTest">
+        <parameter name = "UserName"  value = "demo@techfios.com"/>
+        <parameter name="password" value = "abc123"/>
+        <parameter name="FullName" value = "Excel Project"/>
+        <parameter name="CompanyName" value = "Techfios"/>
+        <parameter name="Email" value = "apShihab@techfios.com"/>
+        <parameter name="Phone" value = "012-345-6789"/>
+        <parameter name="Address" value = "Techfios Building"/>
+        <parameter name="City" value = "Carrolton"/>
+        <parameter name="Country" value = "United Kingdom"/>
+        <parameter name="State" value = "TX"/>
+        <parameter name="Zip" value = "75009"/>
+           <classes>
+               <class name="tests.LoginTest"/>
+               <class name = "tests.AddCustomerTest"/>
+               <class name = "tests.ListCustomerTest"/>
+
+
+           </classes>
+
+    </test>
+
+
+
+</suite >
